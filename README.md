@@ -1,0 +1,1 @@
+This is a photo blog of a road trip from Colorado to British Columbia in the Fall of 2016.
