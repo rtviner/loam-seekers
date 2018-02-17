@@ -1,0 +1,15 @@
+body {
+	font-size: 100%;
+	color: #000;
+}
+
+header {
+	background-color: #000 
+	/* Combined background properties
+	background: url("images/loam-seekers-bg.jpg") repeat-none; */
+	color: #fff;
+}
+
+h1 {
+	font: #000 bold 20em arial;
+}
