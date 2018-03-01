@@ -22,19 +22,19 @@ a {
 } /*turns underline off for all links */
 
 a:link {
-	color: #fff;
-}
-
-a:visited {
-	color: #939393;
-}
-
-a:focus {
 	color: #798a79;
 }
 
+a:visited {
+	color: #798a79;
+}
+
+a:focus {
+	color: #fff;
+}
+
 a:hover {
-	color: #798a79;;
+	color: #fff;
 }
 
 a:active {
