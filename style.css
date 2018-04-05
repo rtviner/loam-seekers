@@ -19,6 +19,7 @@ ul {
 
 a {
 	text-decoration: none;
+	transition: color .3s, background-color .3s ;
 } /*turns underline off for all links */
 
 a:link {
@@ -43,24 +44,23 @@ a:active {
 }
 
 /* header styles */
-#logo {
-	width: 20%;
-	height: 1.5em;
+#logo {	
 	padding: 0;
-	padding-left: 2.5em;
-	margin-bottom: -2em;
+	padding-left: 1.8em;
 	margin: 0;
-	text-align: center;
+	text-align: left;
 	background-color: #203C20;
-}
+	font-size: 2.5em;
+ }
 
 nav ul {
 	margin: 0;
-	padding: 1em;
-	width: 100%;
+	padding: 1.8em;
 	background-color: #203C20;
 	height: 3em;
+	font-size: 1.25em;
 }
+
 
 #logo, nav.main-nav li {
 	color: #fff;
@@ -69,18 +69,18 @@ nav ul {
 
 header {
 	position: fixed; /* Keeps the nav bar up top when scrolling down the page */
-	width: 100%;
 	margin: 0;
+	width: 100%;
 	z-index: 5;
 }
 
 a.main-nav {
 	display: block;
-	padding: 0 0.75em; 
+	padding: 0 .75em; 
 }
 
 #co {
-	padding-left: 12.5em; /* Moves "Colorado" away from Logo */
+	margin-left: 10em; /* Moves "Colorado" away from Logo */
 }
 
 /* main body styles */
