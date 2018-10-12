@@ -1,0 +1,111 @@
+/* overall document styles */
+* {box-sizing: border-box;
+}
+
+body {
+	font: 100% sans-serif;
+	color: #000;
+	margin: 0;
+}
+
+h1 {
+	font: bold 2em "Anton", sans-serif;
+	color: #203C20; /* Makes main h1 green of header background*/ 
+	letter-spacing: .04em;
+}
+
+ul {
+	list-style-type: none;}
+
+a {
+	text-decoration: none;
+	transition: color .2s .2s, background-color .3s .2s, text-shadow .3s .2s;
+	text-shadow: 1px 1px #000;
+} /*turns underline off for all links */
+
+a:link {
+	color: #798a79;
+}
+
+a:visited {
+	color: #798a79;
+	text-shadow: none;
+}
+
+a:focus {
+	color: #fff;
+}
+
+a:hover {
+	color: #fff;
+}
+
+a:active {
+	color: #228B22;
+	text-shadow: none;
+}
+
+/* header styles */
+.nav-grid{
+	display: grid;
+	grid-template: repeat(2, 2em) / repeat(10, auto);
+	grid-auto-rows: auto;
+	align-items: center;
+	text-align: center;
+	background: #203C20;
+	min-width: 800px;
+}
+
+.logo-text {
+	grid-area: 1 / 2 / 3 / 4;
+}
+
+#logo {	
+	font-size: 2.5em;
+	text-shadow: 2px 2px #000;
+ }
+
+.col-3{
+	grid-area: 2 / 4 / 3 / 5;
+}
+
+.col-4{
+	grid-area: 2 / 5 / 3 / 6;
+}
+
+.col-5{
+	grid-area: 2 / 6 / 3 / 7;
+}
+
+.col-6{
+	grid-area: 2 / 7 / 3 / 8;
+}
+
+.col-7{
+  grid-area: 2 / 8 / 3 / 9;
+}
+
+.col-8{
+	grid-area: 2 / 9 / 3 / 10;
+}
+
+/* main body styles */
+main {
+	text-align: center;
+}
+
+article {
+	margin-top: 3em;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+	height: auto;
+	margin: 0 auto;
+}
+/* footer styles */
+footer {
+	position: relative;
+	top: 8em;
+}

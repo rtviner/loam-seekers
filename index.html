@@ -1,42 +1,62 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title class="logo-text">Loam Seekers</title>
 	<meta charset="UTF-8">
-	<link href="style.css" type="text/css"  rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="styles/style.css" type="text/css"  rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
 </head>
+
 <body>
-<div class="grid">
-<header class="main-nav">
-  <h1 id="logo" class="main-nav"><a href="#" class="home">Loam Seekers</h1>
-  <nav class="main-nav">
-	<ul id=main-menu>
-		<li><a href="#" class="main-nav" id="co" target="display">Colorado</a></li>
-		<li><a href="#" class="main-nav" id="ut" target="display">Utah</a></li>
-		<li><a href="#" class="main-nav" id="wa" target="display">Washington</a></li>
-		<li><a href="#" class="main-nav" id="bc" target="display">British Columbia</a></li>
-		<li><a href="#" class="main-nav" id="wy" target="display">Wyoming</a></li>
-	</ul>
-</nav>
-</header>
-</div class="grid">
-<main>
-	<h1>BC Road Trip 2016</h1>
-	<p>A pilgramage to the mecca of mountain biking</p>
-	<img src="/images/IMG_4940.JPG" alt="Foggy forest" height="45" width="250"><!--Oops! I accidentallydeleted the image-->
-	<ul>
-		<li>1 Month</li>
-		<li>1 Minivan</li>
-		<li>4 Bikes</li>
-	</ul>
-	<!--not sure about these photos here
-	<img src="hold" alt="van photo">
-	<img src="hold" alt="beautiful bc photo">
--->
-</main>
-<footer>
-	<p>Loam Seekers &copy;2018</p>
+<!-- Main nav header-->
+	<nav class="nav-grid">
+	  <div class="logo-text">
+	  <h1 id="logo"><a href="#" class="main-nav">Loam Seekers</a></h1>
+	  </div>
+	  		<div class="col-3">
+				<a href="routes.html" class="main-nav" id="routes" >Routes</a> <!--Goes to a new page with maps of all road trip routes-->
+			</div>
+			<div class="col-4">
+				<a href="destinations-16/bc.html" class="main-nav" id="bc" >British Columbia</a>
+		    </div>
+			<div class="col-5">
+				<a href="destinations-16/colorado.html" class="main-nav" id="co" >Colorado</a>  <!--Goes to a page with all photos from trips in Colorado-->
+			</div>
+			<div class="col-6">
+				<a href="destinations-16/utah.html" class="main-nav" id="ut" >Utah</a>
+		    </div>
+			<div class="col-7">
+				<a href="destinations-16/washington.html" class="main-nav" id="wa" >Washington</a>
+			</div>
+
+			<div class="col-8">
+				<a href="destinations-16/wyoming.html" class="main-nav" id="wy" >Wyoming</a>
+			</div>
+	</nav>
+
+<!-- Main body content-->
+	<main>
+		<article class="bc-2016">
+			<h2>BC Road Trip 2016</h2>
+			<p>A pilgramage to the mecca of mountain biking</p>
+		 	<figure class="map">
+				<img src="images/Sample-route-map.png" alt="bc-2016-route-map" height="486" width="600"><!--Paul needs to make a map of our BC 2016 trip route-->
+			    <figcaption>
+			     	<ul>
+				    	<li>1 Month</li>
+				     	<li>1 Minivan</li>
+				     	<li>4 Mountain Bikes</li>
+			       </ul>
+		        </figcaption>
+	      	</figure>
+		<article>
+	</main>
+	<!-- Loamseekers copyright and instagram links?-->
+	<footer>
+		<p>Loam Seekers &copy;2018</p>
 	</footer>
+
 </body>
 <html>
