@@ -55,6 +55,15 @@ a:active {
 	background: #203C20;
 	min-width: 800px;
 }
+.nav-grid-2{
+	display: grid;
+	grid-template: repeat(2, 1.25em) / repeat(10, auto);
+	grid-auto-rows: auto;
+	align-items: center;
+	text-align: center;
+	background: #101f10;
+	min-width: 800px;
+}
 
 .logo-text {
 	grid-area: 1 / 2 / 3 / 4;
@@ -64,6 +73,16 @@ a:active {
 	font-size: 2.5em;
 	text-shadow: 2px 2px #000;
  }
+
+.title {
+	grid-area: 1 / 2 / 3 / 4;
+}
+
+#state {
+	color: #798a79;
+	font: 2em "Anton", sans-serif;;
+	text-shadow: 2px 2px #000;
+}
 
 .col-3{
 	grid-area: 2 / 4 / 3 / 5;
@@ -94,9 +113,9 @@ main {
 	text-align: center;
 }
 
-article {
+/*article {
 	margin-top: 3em;
-}
+}*/
 
 img {
 	max-width: 100%;
