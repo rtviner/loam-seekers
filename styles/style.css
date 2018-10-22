@@ -80,8 +80,10 @@ a:active {
 
 #state {
 	color: #798a79;
-	font: 2em "Anton", sans-serif;;
+	font: 1.5em "Anton", sans-serif;;
 	text-shadow: 2px 2px #000;
+	text-align: right;
+	padding-right: 2.5em;
 }
 
 .col-3{
