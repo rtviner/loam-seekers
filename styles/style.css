@@ -14,6 +14,10 @@ h1 {
 	letter-spacing: .04em;
 }
 
+h2 {
+	padding: 1em;
+}
+
 ul {
 	list-style-type: none;}
 
