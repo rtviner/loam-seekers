@@ -61,7 +61,7 @@ a:active {
 }
 .nav-grid-2{
 	display: grid;
-	grid-template: repeat(2, 1.25em) / repeat(10, auto);
+	grid-template: 2.5em / repeat(10, auto);
 	grid-auto-rows: auto;
 	align-items: center;
 	text-align: center;
@@ -79,7 +79,7 @@ a:active {
  }
 
 .title {
-	grid-area: 1 / 2 / 3 / 4;
+	grid-area: 1 / 2 / 2 / 4;
 }
 
 #state {
@@ -115,6 +115,32 @@ a:active {
 	grid-area: 2 / 9 / 3 / 10;
 }
 
+
+.col-3-2ndNav{
+	grid-area: 1 / 4 / 2 / 5;
+}
+
+.col-4-2ndNav{
+	grid-area: 1 / 5 / 2/ 6;
+}
+
+.col-5-2ndNav{
+	grid-area: 1 / 6 / 2 / 7;
+}
+
+.col-6-2ndNav{
+	grid-area: 1 / 7 / 2 / 8;
+}
+
+.col-7-2ndNav{
+  grid-area: 1 / 8 / 2 / 9;
+}
+
+.col-8-2ndNav{
+	grid-area: 1 / 9 / 2 / 10;
+}
+
+
 /* main body styles */
 main {
 	text-align: center;
@@ -123,6 +149,10 @@ main {
 /*article {
 	margin-top: 3em;
 }*/
+
+figcaption {
+	font-style: italic;
+}
 
 img {
 	max-width: 100%;
