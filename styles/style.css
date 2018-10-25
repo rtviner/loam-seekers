@@ -15,7 +15,7 @@ h1 {
 }
 
 h2 {
-	padding: 1em;
+	padding-top: 1em;
 }
 
 ul {
@@ -87,8 +87,8 @@ a:active {
 	font: 1.5em "Anton", sans-serif;;
 	text-shadow: 2px 2px #000;
 	text-align: right;
+	padding: 0;
 	padding-right: 2.5em;
-	padding-left: 0em;
 }
 
 .col-3{
@@ -150,8 +150,21 @@ main {
 	margin-top: 3em;
 }*/
 
+section.flex-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;	
+}
+
+
 figcaption {
 	font-style: italic;
+	padding-top: .5em;
+}
+
+figure {
+	margin: 0;
+	padding-bottom: 2em;
 }
 
 img {
@@ -160,6 +173,11 @@ img {
 	height: auto;
 	margin: 0 auto;
 }
+
+figure.small-img {
+	width: 48%;	
+}
+
 /* footer styles */
 footer {
 	position: relative;
