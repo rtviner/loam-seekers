@@ -196,14 +196,14 @@ figcaption {
 	font-style: italic;
 	padding-top: .5em;
 	padding-left: 1.5em;
-	max-width: 800px;
+	max-width: 42em;
 	margin: 0 auto;
 	text-align: left;
 	
 }
 
 .long-cap {
-	max-width: 800px;
+	max-width: 46em;
 	margin: 1em auto;
 	font-style: normal;
 	text-align: left;
