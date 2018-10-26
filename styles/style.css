@@ -150,6 +150,20 @@ main {
 	text-align: center;
 }
 
+.main-page-title {
+	background-image: url("../images/mtn-views-ban.jpg");
+	background-repeat: no-repeat;
+	color: #FFF;
+	background-size: auto;
+	padding: 2.25em;
+	text-shadow: 2px 2px #101f10;
+}
+
+.map {
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+}
 
 section.flex-container {
 	display: flex;
