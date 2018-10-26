@@ -155,6 +155,7 @@ main {
 	background-repeat: no-repeat;
 	color: #FFF;
 	background-size: auto;
+	background-position: top center;
 	padding: 2.25em;
 	text-shadow: 2px 2px #101f10;
 }
