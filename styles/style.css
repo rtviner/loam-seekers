@@ -271,6 +271,19 @@ a.bottom-nav {
 	color: #FFF;
 }
 
+a.bottom-nav:focus {
+	color: #0066ff;
+}
+
+a.bottom-nav:hover {
+	color: #0066ff;
+}
+
+a.bottom-nav:active {
+	color: #0066ff;
+	text-shadow: none;
+}
+
 /* footer styles */
 footer {
 	position: relative;
