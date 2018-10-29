@@ -20,6 +20,10 @@ h2 {
 	color: #101f10;
 }
 
+p {
+	font-size: 1em;
+}
+
 ul {
 	list-style-type: none;
 }
@@ -48,7 +52,7 @@ a:hover {
 }
 
 a:active {
-	color: #228B22;
+	color: #0066ff;
 	text-shadow: none;
 }
 
