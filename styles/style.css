@@ -218,7 +218,7 @@ figure.flex-img {
 
 figure.flex-img figcaption {
 	font-style: italic;
-	font-size: .9em;
+	font-size: .85em;
 	padding-top: .5em;
 	padding-left: 1em;
 	max-width: 42em;
@@ -228,7 +228,7 @@ figure.flex-img figcaption {
 
 figure.small-img figcaption {
 	font-style: italic;
-	font-size: .9em;
+	font-size: .85em;
 	padding-top: .5em;
 	padding-left: 1em;
 	max-width: 42em;
