@@ -245,8 +245,8 @@ img {
 }
 
 .small-img {
-	min-width: 400px;
 	max-width: 800px;
+	height: auto;
 	margin: 0 auto;
 }
 
