@@ -30,7 +30,7 @@ ul {
 
 a {
 	text-decoration: none;
-	transition: color .2s .2s, background-color .3s .2s, text-shadow .3s .2s;
+	transition: color .1s .1s, background-color .3s .2s, text-shadow .3s .2s;
 	text-shadow: 1px 1px #000;
 } 
 
@@ -211,9 +211,9 @@ figure {
 	padding-bottom: 2em;
 }
 
-figure.small-img {
+figure.flex-img {
 	width: 49%;	
-	min-width: 600px;
+	min-width: 400px;
 }
 
 figcaption {
@@ -237,9 +237,15 @@ figcaption {
 }
 
 img {
-	max-width: 100%;
 	display: block;
+	max-width: 100%;
 	height: auto;
+	margin: 0 auto;
+}
+
+.small-img {
+	min-width: 500px;
+	max-width: 800px;
 	margin: 0 auto;
 }
 
@@ -289,4 +295,13 @@ footer {
 	position: relative;
 	top: 8em;
 	padding-left: 5em;
+}
+
+/**/
+@media screen and (max-width: 800px) {
+
+    figure.flex-img {
+		width: 100%;	
+		margin: 0 auto;
+	}
 }
