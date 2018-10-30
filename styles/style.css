@@ -299,6 +299,116 @@ footer {
 
 /**/
 @media screen and (max-width: 800px) {
+	.nav-grid{
+		display: grid;
+		grid-template: 2.75em 1.75em 1.75em / repeat(3, auto);
+		align-items: center;
+		text-align: center;
+		background: #203C20;
+		max-width: 800px;
+		min-width: 200px;
+	}
+
+	.logo-text {
+		grid-area: 1 / 1 / 2 / 4;
+	}
+
+	#logo {	
+		font-size: 2em;
+		text-shadow: 2px 2px #000;
+		padding: .25em;
+		margin: 0;
+ 	}
+
+ 	a.main-nav {
+ 		margin: 1em auto;
+ 	}
+
+	.col-3{
+		grid-area: 2 / 1 / 3 / 2;
+	}
+
+	.col-4{
+		grid-area: 2 / 2 / 3 / 3;
+	}
+
+	.col-5{
+		grid-area: 2 / 3 / 3 / 4;
+	}
+
+	.col-6{
+		grid-area: 3 / 1 / 4 / 2;
+	}
+
+	.col-7{
+  		grid-area: 3 / 2 / 4 / 3;
+	}
+
+	.col-8{
+		grid-area: 3 / 3 / 4 / 4;
+	}
+
+	.nav-grid-2{
+		display: grid;
+		grid-template: 2.75em 1.75em 1.75em / repeat(3, auto);
+		grid-auto-rows: auto;
+		align-items: center;
+		text-align: center;
+		background: #101f10;
+		max-width: 800px;
+		min-width: 200px;
+	}
+
+	.title {
+		grid-area: 1 / 1 / 2 / 4;
+	}
+
+	#state {
+		color: #fff;
+		font: 1.5em "Anton", sans-serif;
+		text-shadow: 2px 2px #000;
+		text-align: center;
+		padding: 0;
+	}
+
+	.col-3-2ndNav {
+		grid-area: 2 / 1 / 3 / 2;
+	}
+
+	.col-4-2ndNav{
+		grid-area: 2 / 2 / 3 / 3;
+	}
+
+	.col-5-2ndNav{
+		grid-area: 2 / 3 / 3 / 4;
+	}
+
+	.col-6-2ndNav{
+		grid-area: 3 / 1 / 4 / 2;
+	}
+
+	.col-7-2ndNav{
+	  grid-area: 3 / 2 / 4 / 3;
+	}
+
+	.col-8-2ndNav{
+		grid-area: 3 / 3 / 4 / 4;
+	}
+
+	.main-page-title {
+		background-image: none;
+		color: #203C20;
+		padding: 0;
+		text-shadow: 1px 1px #101f10;
+	}
+
+	h2 {
+		padding-top: .5em;
+		padding-bottom: .5em;
+		font: bold 1.75em "Lato", sans-serif;
+		color: #101f10;
+	}
+
 
     figure.flex-img {
 		width: 100%;	
@@ -310,4 +420,26 @@ footer {
 		margin: 0 auto;
 	}
 
+	.destination-page a#routes, .destination-page a#bc,
+	.destination-page a#co, .destination-page a#mt, .destination-page a#ut, .destination-page a#wa{
+		display: none;
+	}
+
+	.destination-page nav.nav-grid{
+		display: grid;
+		grid-template-rows: auto;
+		grid-template-columns: auto;
+		align-items: center;
+		text-align: center;
+		background: #203C20;
+		max-width: 800px;
+		min-width: 200px;
+	}
+
+	.destination-page h1#logo {	
+		font-size: 2em;
+		text-shadow: 2px 2px #000;
+		padding: 0;
+		margin: 0;
+	}
 }
