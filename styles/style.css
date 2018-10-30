@@ -303,5 +303,11 @@ footer {
     figure.flex-img {
 		width: 100%;	
 		margin: 0 auto;
+	} 
+
+	.small-img {
+		width: 100%;
+		margin: 0 auto;
 	}
+
 }
