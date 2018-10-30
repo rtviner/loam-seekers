@@ -350,7 +350,7 @@ footer {
 
 	.nav-grid-2{
 		display: grid;
-		grid-template: 2.75em 1.75em 1.75em / repeat(3, auto);
+		grid-template: 2.5em 1.75em 1.75em / repeat(3, auto);
 		grid-auto-rows: auto;
 		align-items: center;
 		text-align: center;
