@@ -216,6 +216,27 @@ figure.flex-img {
 	min-width: 400px;
 }
 
+figure.flex-img figcaption {
+	font-style: italic;
+	font-size: .9em;
+	padding-top: .5em;
+	padding-left: 1em;
+	max-width: 42em;
+	margin: 0 auto;
+	text-align: left;
+}
+
+figure.small-img figcaption {
+	font-style: italic;
+	font-size: .9em;
+	padding-top: .5em;
+	padding-left: 1em;
+	max-width: 42em;
+	margin: 0 auto;
+	text-align: left;
+}
+
+
 figcaption {
 	font-style: italic;
 	font-size: .9em;
