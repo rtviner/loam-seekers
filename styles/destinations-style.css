@@ -62,7 +62,6 @@ section.flex-container {
 
 figure.flex-img {
 	max-width: 49%;	
-	min-width: 400px;
 }
 
 .photo-grid {
@@ -191,7 +190,7 @@ figure.flex-img {
 		grid-area: 3 / 1 / 4 / 2;
 	}
 
-	.flex-img {
+	figure.flex-img {
 		max-width: 100%;
 		height: auto;	
 		margin: 0 auto;
