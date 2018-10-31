@@ -203,6 +203,12 @@ figure.flex-img {
 		display: block;
 	}
 
+	iframe {
+		max-width: 100%;
+		height: auto;	
+		margin: 0 auto;
+	}
+
 	#left-vid {
 		margin: 0 auto;
 	}
