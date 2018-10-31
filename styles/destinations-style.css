@@ -196,6 +196,20 @@ figure.flex-img {
 		margin: 0 auto;
 	} 
 
+	.video {
+		max-width: 100%;
+		height: auto;	
+		margin: 0 auto;
+		display: block;
+	}
+
+	#left-vid {
+		margin: 0 auto;
+	}
+
+	#right-vid {
+		margin: 0 auto;
+	}
 
 	.small-img {
 		max-width: 100%;
