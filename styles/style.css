@@ -169,8 +169,8 @@ img {
 div.bottom-nav {
 	background-color: #203C20;
 	width: 5.5em;
-	padding: 0.5em;
-	margin: 1em .75em;
+	padding: 0.5em .75em;
+	margin: 0.75em;
 	outline: none;
 	border: none;
 	border-radius: 10px;
@@ -181,6 +181,16 @@ div.bottom-nav {
 a.bottom-nav {
 	font: 1em sans-serif;
 	color: #FFF;
+}
+
+a#top {
+	padding: 0.5em 1.15em;
+	margin: 0 auto;
+}
+
+a#home {
+	padding: 0.5em .75em;
+	margin: 0 auto;
 }
 
 a.bottom-nav:focus {
